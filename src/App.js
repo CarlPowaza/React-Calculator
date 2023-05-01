@@ -1,25 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <body>
+         <div Class="Calc-Display"></div>
+   <div Class="Calc-Container">
+            <button Class="Calc-Btn">7</button>
+            <button Class="Calc-Btn">8</button>
+            <button Class="Calc-Btn">9</button>
+            <button Class="Calc-Btn">*</button>
+
+            <button Class="Calc-Btn">4</button>
+            <button Class="Calc-Btn">5</button>
+            <button Class="Calc-Btn">6</button>
+            <button Class="Calc-Btn">-</button>
+
+            <button Class="Calc-Btn">1</button>
+            <button Class="Calc-Btn">2</button>
+            <button Class="Calc-Btn">3</button>
+            <button Class="Calc-Btn">+</button>
+
+            <button Class="Calc-Btn">CE</button>
+            <button Class="Calc-Btn">0</button>
+            <button Class="Calc-Btn">.</button>
+            <button Class="Calc-Btn">=</button>
+   </div>
+   </body>
+  )
 }
 
 export default App;
